@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 233, 233);
+}
+.container {
+    width: 700px;
+    height: 100%;
+    margin: 25px auto;
+    border: 1px solid rgb(235, 233, 233);
+    background-color: white;
+}
+.container .intro {    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container .intro p{    
+    width: 243px;
+    padding-top: 40px;
+    
+}
+.container h1 {
+    padding: 50px;
+    text-align: left;
+    font-size: 32px;
+}
+
+.profile{
+    height:30px;
+    background-color: rosybrown;
+    margin-left: 30px;
+    margin-right: 100px;
+
+
+}
+
+.profile h1{
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px; 
+    
+}
+
+.text p {
+    margin-left: 53px;
+    padding: 5px;
+    margin-top: 5px;
+    text-justify: auto;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.skills {
+    height: 30px;
+    background-color:  rosybrown;; 
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.skills h1{
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px; 
+    margin-top: 30px;
+}
+
+.text ul li{
+    margin-left: 70px;
+    padding: 5px;
+    margin-top: 10px;
+    text-justify: auto;
+    font-size: 12px;
+}
+
+.Experience {
+    height: 30px;
+    background-color:  rosybrown;; 
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.Experience h1{
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px; 
+    margin-top: 30px;
+}
+
+
+
+.achievements {
+    height: 30px;
+    background-color:  rosybrown;; 
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.achievements h1{
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px; 
+    margin-top: 30px;
+}
+
+.education {
+    height: 30px;
+    background-color:  rosybrown;; 
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.education h1{
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 20px; 
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .container h1 {
+    width: 100%;        
+    font-size: 10px;
+    }
+
+    .container .intro p{    
+        width: 40%;
+        padding-top: 40px;
+        font-size: 8px;
+       
+    }
+}
